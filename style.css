@@ -23,7 +23,7 @@ body {
   .nav-link:hover::after {
     content: "";
     display: block;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(160, 116, 33);
     width: 40%;
     margin: auto;
     padding-bottom: 5px;
