@@ -55,7 +55,7 @@
     <!-- jumbotron-->
     <section class="jumbotron text-center" >
       <img src="img/uge.png" alt="SUGENG HARDIYANTO" width="150" img-thumbnail   />
-      <h1 class="display-4">SUGENG HARDIYANTO</h1>
+      <h1 class="display-4 fw-normal">SUGENG HARDIYANTO</h1>
       <p class="lead"></p>
       </section>
     <!--akhir jumbotron-->
@@ -93,7 +93,7 @@
           <div class="col-md-3 mb-3" data-aos="flip-left" data-aos-offset="350" data-aos-duration="3000" data-aos-delay="50" >
             <div class="card">
               <img src="img/projects1.jpg" class="card-img-top" alt="projects1">
-              <div class="card-body">
+              <div class="card-body fw-bold text-center">
                 <p class="card-text">NFT always fighting.</p>
               </div>
             </div>
@@ -101,7 +101,7 @@
           <div class="col-md-3 mb-3" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="3000"data-aos-delay="50" >
             <div class="card">
               <img src="img/projects2.png" class="card-img-top" alt="projects2">
-              <div class="card-body">
+              <div class="card-body fw-bold text-center">
                 <p class="card-text">NFT coin.</p>
               </div>
             </div>
@@ -109,7 +109,7 @@
           <div class="col-md-3 mb-3" data-aos="flip-right" data-aos-offset="350" data-aos-duration="3000"data-aos-delay="50" >
             <div class="card">
               <img src="img/projects3.png" class="card-img-top" alt="projects3">
-              <div class="card-body">
+              <div class="card-body fw-bold text-center">
                 <p class="card-text">NFT bull.</p>
               </div>
             </div>
@@ -132,18 +132,18 @@
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name"/>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama"/> 
                </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email"/>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email"/>
                </div>
               <div class="mb-3">
                 <label for="Pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="2"></textarea>
+                <textarea class="form-control" id="pesan" rows="5" placeholder="Masukkan pesan"></textarea>
               </div>
               
-              <button type="submit" class="btn btn-dark">Kirim</button>
+              <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
           </div>
          </div>
@@ -167,7 +167,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
       <script>
         gsap.registerPlugin(TextPlugin);
-        gsap.to ('.lead',   { duration: 3,  delay: 3, text:'JUST AN ORDINARY HUMAN.'}) ;
+        gsap.to ('.lead',   { duration: 3,  delay: 3, text:'JUST AN ORDINARY HUMAN'}) ;
         gsap.from('.jumbotron img', { duration: 5, rotateY: 360, opacity: 10  } ) ;
         gsap.from('.navbar', { duration: 5, y: '-100%', opacity: 10, ease: 'bounce' });
         gsap.from('.display-4', { duration: 5, x: -100, opacity: 10, delay:0.5, ease: 'bounce' });

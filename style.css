@@ -16,5 +16,21 @@ section {
 }
 
 body {
-  padding-top: 6rem;
+  padding-top: 7rem;
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid black;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
 }
